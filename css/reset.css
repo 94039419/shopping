@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0
+	}
+	
+body{
+	font-size:12px;
+	}
+	
+img{
+	border:none;
+	}
+	
+li{
+	list-style:none;
+	}
+	
+input,select,textarea{
+	ouline:none;
+	}
+	
+textarea{
+	resize:none;
+	}
+	
+a{
+	text-decoration:none;
+	color:#666666;
+	}
+	
+.clearfix:after{
+	content:'',display:block;clear:both;
+	}
+.clearfix{clear:both;zoom:1;}	
+
+.fl{
+	float:left;
+	}
+.fr{
+	float:right;
+	}
+input{
+	border:0;
+	outline:none;
+	}

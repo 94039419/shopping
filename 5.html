@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<link href="css/reset.css" type="text/css" rel="stylesheet" >
+<link href="css/main.css" type="text/css" rel="stylesheet" >
+<meta charset="utf-8">
+<title>购物车和结算页</title>
+</head> 
+<body>
+	<div class="header"><!--头部栏-->
+    	<div class="h_top"><!--头部栏顶层-->
+        	<div class="comWidth"><!--居中层-->
+            	<div class="h_top_left fl">
+                	<a href="#" class="shoucang">收藏XXX</a>
+                </div>
+                <div class="h_top_right fr">
+                	<p>欢迎来到XXX网!<a href="#">[登录]</a><a href="#">[注册]</a></p>
+                </div>
+            </div>
+        </div><!--头部栏顶层结束-->
+        <div class="h_middle"><!--头部栏中间层-->
+        	<div class="comWidth">
+            	<div class="h_logo fl">
+
+                </div>
+               	<div class="zhuangtai fr">
+                	<div class="zhuangtai_img fl">
+                		<img src="img/交易状态.gif">
+                    </div>
+                    <ul class="fl"><li class="s1">我的购物车</li><li class="s2">填写确认订单</li><li class="s3">提交确认</li></ul>
+                </div>
+            </div>
+        </div><!--头部栏中间层结束-->
+    </div><!--头部栏结束-->
+	
+    <div class="biaodan comWidth"><!--个人提交信息-->
+    	<div class="biaodan_item" >
+        	<h1>收货信息</h1>
+            <div class="shouhuo_info">
+            	<ul>
+                	<li><em class="fl">*</em><span class="fl">选择地区</span>
+                        <div class="add_xiala fl ">
+                            <a href="#">海淀区<span class="haidianxiala"></span></a>
+                            <ul class="add_ul">
+                                <li><a href="#">浦东新区</a></li>
+                                <li><a href="#">崇明</a></li>
+                                <li><a href="#">黄埔</a></li>
+                                <li><a href="#">朝阳区</a></li>
+                                <li><a href="#">开发区</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="clearfix"><em>*</em><span>收获地址</span><input type="text" value="最多输入23个汉字" class="shou_2"></li>
+                    <li><em>*</em><span>收货人</span><input type="text" value="最多输入11个汉字" class="shou_3"></li>
+                    <li><em>*</em><span>手机</span><input type="text" value="如123123" class="shou_4"></li>
+                   	<li><a href="#" class="shouhuo_add">收货地址</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="biaodan_item" >
+        	<h1>支付方式</h1>
+            <div class="zhifu_info">
+            	<ul>
+                	<li><input type="radio">微信支付&nbsp;&nbsp;&nbsp;<span class="zhifu_img">用微信扫一扫就能支付</span></li>
+                    <li><input type="radio">货到付款&nbsp;&nbsp;&nbsp;<span>送货上门付款</span></li>
+                </ul>
+            </div>	
+        </div>
+        
+        <div class="biaodan_item" ><!--发票信息表单-->
+        	<h1>发票信息</h1>
+            <div class="fapiao_info">
+            	<ul>
+                	<li><input type='checkbox' name="fapiao" id="fapiao" class="fapiao_che"><label for="fapiao">需要发票</label> </li>
+                    <li><em>*</em><span>发票类型</span>
+                    	<select>
+                        	<option>商业零售发票</option>
+                            <option>个人发票</option>
+                    	</select>
+                    </li>
+                    <li><em>*</em><span>发票抬头</span>
+                    	<select>
+                        	<option>个人</option>
+                            <option>公司</option>
+                    	</select>
+                        <input type="text" value="xiaoming" class="fapiao_text">
+                    </li>
+                    <li class="save_c"><a href="#" class="save">保存</a><a href="#" class="quxiao">取消</a></li>
+                </ul>
+            </div>	
+        </div>
+        
+        <div class="biaodan_item" ><!--送货表单-->
+        	<h1 >送货清单<a href="#" class="fanhui fr">返回购物车</a></h1>
+            <div class="songhuo_info">
+            	<ul class="shangping_title fl">
+                	<h2 ="title_h2">商品名称</h2>
+                    <li>单价</li>
+                    <li>返现</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                </ul>
+                <div class="shangpin_cont clearfix">
+  					<div class="shang_img fl"><img src="img/冰箱.gif" ></div>
+                    <ul class="shangping_name fl ">
+                        <h2>海信三门白色</h2>
+                        <li>999.00</li>
+                        <li>50.00</li>
+                        <li>2台</li>
+                        <li>94.00</li>
+                    </ul>
+                    <ul class="zengpin_name fl">
+                        <h2 class="zengpin_h2">赠品汤臣一品别墅</h2>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>三套</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                 	</div>
+           		</div>	
+                <div class="teshuyaoqiu">
+                	<p class="te_p1">若您对包裹有特殊要求，请在此留言</p>
+                    <p class="te_p2">抱歉，以下商品暂时不能购买</p>
+                    <div class="teshu_img">
+                    	<img src='img/清风.gif'>
+                        <p class="teshu_p1">秦风纸巾</p>
+                        <p>价格：89元</p>
+                        <p>数量：1包</p>
+                    </div>
+                </div>
+      	   </div>
+           
+            <div class="biaodan_item queren_item" ><!--送货表单-->
+                <h1>确认订单</h1>
+                <p >总计<span>￥888.00</span></p>
+                <a href="#">提交订单</a>
+      	   </div>
+           
+    	</div><!--个人提交信息结束-->
+   
+    
+    <div class="footer clearfix"><!--底部层-->
+    	<div class="f_cc comWidth">
+        	<div class="f_a">
+            	<a href="#">XXX简介|</a><a href="#">XXX公告|</a><a href="#">招纳贤士|</a><a href="#">联系我们|</a>
+            	<p>客服热线：400-675-1234</p>
+            </div>
+            <div class="f_b">
+            	<p>Copyright © 2006 - 2014 XXX版权所有   京ICP备09037834号   京ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+            </div>
+            <div class="f_c">
+            	<img src="img/小图.gif" >
+                <img src="img/小图.gif" >
+                <img src="img/小图.gif" >
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
